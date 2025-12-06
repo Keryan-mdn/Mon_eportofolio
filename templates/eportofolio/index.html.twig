@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Mon Eportofolio{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 850px; width: 95%; font: 18px/1.5 sans-serif; }
+</style>
+
+<div class="example-wrapper">
+    <h1 style ="margin-top:2em;">Bonjour bienvenue sur mon CV en ligne ! </h1>
+
+    Vous pourrez trouver des informations me concernant ainsi que mon parcours professionnel tel que :
+    <ul style ="margin-top:1em;">
+        <li>Mon Profil ainsi que les moyens de me contacter</li>
+        <button type="button" class="btn btn-dark" onclick="window.location.href='/profil'">Profil/Contact</button>
+        <li>Mes Expériences professionnelles</li>
+        <button type="button" class="btn btn-dark" onclick="window.location.href='/experience'">Expériences</button>
+        <li>Mes Compétences</li>
+        <button type="button" class="btn btn-dark" onclick="window.location.href='/competences'">Compétences</button>
+    </ul>
+</div>
+{% endblock %}
