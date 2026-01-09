@@ -2,5 +2,43 @@
 {% block title %}Compétences{% endblock %}
 
 {% block body %}
-<p style="text-align:center; max-width:800px; margin:4em auto;"> Prévoir intégration des compétences + Eportofolio</p>
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 850px; width: 95%; font: 18px/1.5 sans-serif; }
+</style>
+<div class="example-wrapper">
+    <h2 style ="margin-top:2em;">Mes Compétences maitrisées</h2>
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">Compétences générales</th>
+      <th scope="col">Sous-compétences</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="table-active">
+      <th scope="row">Administrer un réseau</th>
+      <td>AC11.01 Maîtriser les lois fondamentales de l’électricité afin d’intervenir sur des équipements de réseaux et télécommunications</td>
+    </tr>
+    <tr class="table-active">
+      <th scope="row">Administrer un réseau</th>
+      <td>AC11.03 Configurer les fonctions de base du réseau local </td>
+    </tr>
+    <tr class="table-secondary">
+      <th scope="row">Administrer un réseau</th>
+      <td>AC11.06 Installer un poste client, expliquer la procédure mise en place</td>
+    </tr>
+    <tr class="table-secondary">
+      <th scope="row">Connecter des usagers</th>
+      <td>AC12.05 Communiquer avec un tiers (client, collaborateur...) et adapter son discours et sa langue à son interlocuteur</td>
+    </tr>
+    <tr class="table-success">
+      <th scope="row">Créer des outils et des appli informatiques</th>
+      <td>AC13.01 Utiliser un système informatique et ses outils</td>
+    </tr>
+    <tr class="table-success">
+      <th scope="row">Créer des outils et des appli informatiques</th>
+      <td>AC13.06 S’intégrer dans un environnement propice au développement et au travail collaboratif</td>
+    </tr>
+  </tbody>
+</table>
 {% endblock %}
